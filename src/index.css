@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.font1{
+  font-size: 150px;
+}
+
+@media(max-width:500px){
+  .font1{
+     font-size: 60px;
+  }
+}
+
+.font2{
+  font-size: 60px;
+}
+
+@media(max-width:500px){
+  .font2{
+     font-size: 40px;
+  }
+}
+
+
+.hbanner{
+  background-image:url(../public/img/homebanner1.jpg);background-size: cover;background-position: center;background-attachment: fixed;
+}
+
+.tbanner{
+  background-image:url(../public/img/tbanner1.jpg);background-size: cover;background-position: center;background-attachment: fixed;
+}
+
+.cbanner{
+  background-image:url(../public/img/cbanner1.jpg);background-size: cover;background-position: center;background-attachment: fixed;
+}
+
+.tebanner{
+  background-image:url(../public/img/tebanner1.jpg);background-size: cover;background-position: center;background-attachment: fixed;
+}
+
+.dot{
+  background-image:url(../public/img/dot1.png);background-position: center;background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+.about{
+  background-image:url(../public/img/about1.jpg);background-size: cover;background-position: center;height: 700px;
+}
+
+@media(max-width:500px){
+  .about{
+    background-image:url(../public/img/about1.jpg);background-size: 100% 100%;background-position: center;height: 400px;
+  } 
+}
+
+.bgreen{
+  background-image:url(../public/img/green1.png);background-size: contain;background-position: center ;  background-repeat: no-repeat;
+}
+
+.aqua{
+  
+  color: aqua;
+}
+
+.bugreen{
+  background-color: rgb(35, 186, 35);
+  transition: 0.5s;
+}
+
+.bugreen:hover{
+  background-color: aqua;
+  transition: 0.5s;
+}
+
+.aqct{
+  background-image:linear-gradient(to bottom left,#204dd498 ,#00c6c392 ) ;
+  height: 100%;
+}
+
+.aqct2{
+  background-image:linear-gradient(to top right,#204dd48a ,#00c6c3a0 ) ;
+  height: 100%;
+}
+
+.aqct1{
+  background-image:linear-gradient(#204dd498 ,#00c6c392 ) ;
+  height: 100%;
+}
+
+.aqct3{
+  background-color:#204dd498;
+  height: 100%;
+}
+
+
+.h15{
+  height: 400px;
+}
+
+.h45{
+  height: 450px;
+}
+
+@media(max-width:500px){
+  .h15{
+    height: 250px;
+  } 
+}
+
+.bcg{
+  background-color: #73D636;
+}
+
+@media(max-width:500px){
+  .ml1{
+    margin-left: 40px;
+    margin-top: 25px;
+  }
+}
+
+
+.b{
+  border-bottom:dashed 1px white;
+}
