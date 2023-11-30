@@ -7,6 +7,7 @@ import Rates from './Page/Rates';
 import Client from './Page/Client';
 import Testimonials from './Page/Testimonials';
 import Gallery from './Page/Gallery';
+import Contact from './Page/Contact';
 function App() {
   return (
    <>
@@ -24,6 +25,8 @@ function App() {
    <Testimonials/>
 
    <Gallery/>
+
+   <Contact/>
    
    
    

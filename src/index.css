@@ -23,12 +23,22 @@ code {
 }
 
 .font2{
-  font-size: 60px;
+  font-size: 50px;
 }
 
 @media(max-width:500px){
   .font2{
-     font-size: 40px;
+     font-size: 35px;
+  }
+}
+
+.font3{
+  font-size: 40px;
+}
+
+@media(max-width:500px){
+  .font3{
+     font-size: 30px;
   }
 }
 
@@ -43,6 +53,10 @@ code {
 
 .cbanner{
   background-image:url(../public/img/cbanner1.jpg);background-size: cover;background-position: center;background-attachment: fixed;
+}
+
+.conbanner{
+  background-image:url(../public/img/conbanner1.jpg);background-size: cover;background-position: center;background-attachment: fixed;
 }
 
 .tebanner{
@@ -98,6 +112,11 @@ code {
   height: 100%;
 }
 
+.aqct4{
+  background-image:linear-gradient(#00c6c392 , #204dd498  ) ;
+  height: 100%;
+}
+
 .aqct3{
   background-color:#204dd498;
   height: 100%;
@@ -132,4 +151,40 @@ code {
 
 .b{
   border-bottom:dashed 1px white;
+}
+
+.logo{
+  background-color: white;
+  color: gray;
+  transition: 0.5s;
+}
+
+.logo:hover{
+  background-color: #00c6c3;
+  color: white;
+  transition: 0.5s;
+}
+
+.wi{
+  width:100%;
+}
+
+.pad{
+  padding-top:11px ;
+  padding-bottom:11px ;
+}
+
+.bcdb{
+  background-color: #172d55;
+  color: white;
+}
+
+.fh{
+  float:right;
+}
+
+@media(max-width:500px){
+  .fh{
+    float:left;
+  }
 }
