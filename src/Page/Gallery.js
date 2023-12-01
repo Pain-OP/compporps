@@ -1,9 +1,10 @@
 import React from 'react'
 
+
 export default function Gallery(props) {
   return (
     <>
-      <div className='col-md-12 p-0 tbanner'>
+      <div id='GALLERY' className='col-md-12 p-0 tbanner'>
         <div className='aqct2'>
       <div className='col-md-12 ' style={{height:"150px"}} ></div>
         
@@ -18,6 +19,31 @@ export default function Gallery(props) {
             </div>
 
             </div>
+
+            <div className="table-responsive">
+  <table className="table ">
+    <tbody>
+      <tr>
+        <td className='p-0 m-0'><img src="img/testi1.jpg" alt="Los Angeles" style={{height:"500px" , width:"320px"}} /></td>
+
+        <td className='p-0 m-0'><img src="img/testi2.jpg" alt="Los Angeles" style={{height:"500px" , width:"320px"}} /></td>
+
+        <td className='p-0 m-0'><img src="img/testi3.jpg" alt="Los Angeles" style={{height:"500px" , width:"320px"}} /></td>
+
+        <td className='p-0 m-0'><img src="img/testi4.jpg" alt="Los Angeles" style={{height:"500px" , width:"320px"}} /></td>
+
+        <td className='p-0 m-0'><img src="img/testi5.jpg" alt="Los Angeles" style={{height:"500px" , width:"320px"}} /></td>
+
+        <td className='p-0 m-0'><img src="img/testi6.jpg" alt="Los Angeles" style={{height:"500px" , width:"320px"}} /></td>
+
+        <td className='p-0 m-0'><img src="img/testi1.jpg" alt="Los Angeles" style={{height:"500px" , width:"320px"}} /></td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
 
 
             </div>

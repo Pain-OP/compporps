@@ -4,7 +4,7 @@ export default function Contact(props) {
   return (
     <>
 
-<div className='col-md-12 p-0 conbanner'>
+<div id='CONTACT' className='col-md-12 p-0 conbanner'>
         <div className='aqct4'>
       <div className='col-md-12 ' style={{height:"150px"}} ></div>
      
@@ -18,9 +18,9 @@ export default function Contact(props) {
 
             <p className='mt-3 text-white'>Nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p><br/>
 
-            <h5 className='text-light'><i class="fa fa-phone mr-4 " aria-hidden="true"></i><span>929-242-6868</span></h5>
+            <h5 className='text-light'><i class="fa fa-phone mr-4 " aria-hidden="true"></i><span>{props.no}</span></h5>
 
-            <h5 className='text-light'><i class="fa fa-envelope  mr-3 " aria-hidden="true"></i><span>contact@enroll.com</span></h5><br/><br/>
+            <h5 className='text-light'><i class="fa fa-envelope  mr-3 " aria-hidden="true"></i><span>{props.email}</span></h5><br/><br/>
 
             <p className='text-light font3'><b>Follow <span className='' style={{ color:"#00c6c3"}} >Me</span></b></p>
 

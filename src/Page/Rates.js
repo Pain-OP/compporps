@@ -3,7 +3,7 @@ import React from 'react'
 export default function Rates(props) {
   return (
     <>
-      <div className='col-md-12 dot p-0'>
+      <div id='RATES' className='col-md-12 dot p-0'>
       <div className='aqct1'>
         <div className='col-md-12 ' style={{height:"150px"}} ></div>
         <div className='col-md-12'>

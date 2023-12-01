@@ -3,7 +3,7 @@ import React from 'react'
 export default function Client(props) {
   return (
     <>
-      <div className='col-md-12 cbanner p-0'>
+      <div id='CLIENTS' className='col-md-12 cbanner p-0'>
       <div className='aqct'>
         <div className='col-md-12 ' style={{height:"150px"}} ></div>
         <div className='col-md-12'>

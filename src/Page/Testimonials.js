@@ -4,7 +4,7 @@ export default function Testimonials(props) {
   return (
     <>
 
-<div className='col-md-12 tebanner p-0'>
+<div id='TESTIMONIALS' className='col-md-12 tebanner p-0'>
       <div className='aqct3'>
         <div className='col-md-12 ' style={{height:"150px"}} ></div>
         <div className='col-md-12'>

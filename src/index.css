@@ -188,3 +188,6 @@ code {
     float:left;
   }
 }
+*{
+  scroll-behavior: smooth;
+}

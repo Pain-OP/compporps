@@ -29,37 +29,37 @@ export default function Home(props) {
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link text-light" href="#">
+        <a className="nav-link text-light" href="#About">
           ABOUT ME
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link text-light" href="#">
+        <a className="nav-link text-light" href="#TRAINING">
           TRAINING
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link text-light" href="#">
+        <a className="nav-link text-light" href="#RATES">
           RATES
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link text-light" href="#">
+        <a className="nav-link text-light" href="#CLIENTS">
           CLIENTS
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link text-light" href="#">
+        <a className="nav-link text-light" href="#TESTIMONIALS">
           TESTIMONIALS
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link text-light" href="#">
+        <a className="nav-link text-light" href="#GALLERY">
           GALLERY
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link text-light" href="#">
+        <a className="nav-link text-light" href="#CONTACT">
           CONTACT
         </a>
       </li>

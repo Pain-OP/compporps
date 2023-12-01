@@ -26,7 +26,7 @@ function App() {
 
    <Gallery/>
 
-   <Contact/>
+   <Contact no="929-242-6868" email="contact@enroll.com" />
    
    
    

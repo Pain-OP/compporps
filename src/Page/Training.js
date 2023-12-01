@@ -3,7 +3,7 @@ import React from 'react'
 export default function Training(props) {
   return (
     <>
-      <div className='col-md-12 p-0 tbanner'>
+      <div id='TRAINING' className='col-md-12 p-0 tbanner'>
         <div className='aqct2'>
       <div className='col-md-12 ' style={{height:"150px"}} ></div>
         
